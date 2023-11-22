@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cart</title>
+    <link rel="icon" type="image/x-icon" href="/jpeg/foxfav.png">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="cartheader">
+    <div class="foxteam">
+        <img src="/jpeg/fox.png">
+        <h1>My Cart:</h1>
+    </div>
+    <nav>
+        <a href="http://localhost:8080/home">Home</a>
+        <a href="http://localhost:8080/shop">Shop</a>
+        <a href="http://localhost:8080/cart">Cart</a>
+        <a href="http://localhost:8080/purchases">Purchases</a>
+        <a href="">Profile</a>
+        <a href="http://localhost:8080/ourteam">Our Team</a>
+        <a href="http://localhost:8080/login">Logout</a>
+    </nav>
+</header>
+<div class="small-container cart-page">
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+        </tr>
+    </table>
+    <div class="total-price">
+        <table>
+            <tr>
+                <td>Total</td>
+                <td id="total-price-cell">0 Ft</td>
+            </tr>
+        </table>
+        <button id="buybtn" type="submit">Buy product(s)</button>
+    </div>
+</div>
+<script src="/js/cart.js"></script>
+</body>
+</html>
